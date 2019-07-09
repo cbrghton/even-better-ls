@@ -2,6 +2,12 @@
 
 ![visual description of even-better-ls](http://imgur.com/H0sLGFX.png)
 
+## Fork of even-better-ls from [mnurzia](https://github.com/mnurzia/even-better-ls)
+
+This fork use a code of [ev0rtex](https://github.com/ev0rtex) for use any other version of coreutils, thanks a lot
+
+To use another version only modify install.sh and change the value of coreutils variable
+
 ## Features
 
 - Almost full stock extension set
@@ -21,10 +27,10 @@ GNU coreutils ls is 4709 lines long. Pairing it with its includes rises the line
 Side note: vdir and dir are also compiled during this process. Feel free to move them as well.
 
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/illinoisjackson/even-better-ls/master/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/cbrghton/even-better-ls/master/install.sh)"
 ```
 
-Additionally, one should append the contents of [append_to_profile.sh](https://raw.githubusercontent.com/illinoisjackson/even-better-ls/master/append_to_profile.sh) to their corresponding profile file (.zshrc, .bashrc).
+Additionally, one should append the contents of [append_to_profile.sh](https://raw.githubusercontent.com/cbrghton/even-better-ls/master/append_to_profile.sh) to their corresponding profile file (.zshrc, .bashrc).
 
 # Usage
 
