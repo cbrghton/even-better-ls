@@ -2,8 +2,9 @@ COREUTILS_VER=8.31
 
 #
 # Copy over the colors generator
+wget https://raw.githubusercontent.com/illinoisjackson/even-better-ls/master/ls_colors_generator.py
 chmod 755 ls_colors_generator.py
-sudo cp ls_colors_generator.py /usr/bin/ls_colors_generator
+sudo mv ls_colors_generator.py /usr/bin/ls_colors_generator
 
 #
 # Cleanup
